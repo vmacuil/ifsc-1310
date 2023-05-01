@@ -1,0 +1,152 @@
+/*
+Primary Color: #FAED9B
+*/
+
+.bg-demo{
+    background-image:url("https://thomaswallace.net/wp-content/uploads/2018/02/ualr.png") ;
+
+    /*
+    
+    background-image:url("../img/kitten.jpg"); */
+  background-repeat:no-repeat;
+  background-size:contain;
+  padding-left:15em;
+}
+
+/*  ---------------Box Sizing-----------------  */
+
+html {
+    box-sizing: border-box;
+  }
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+
+  /*  --------------- Utility Classes -----------------  */
+
+.container {
+    width: 80vw;
+    max-width: 960px;
+    margin: 40px auto;
+  }
+  
+  .img-right{
+    float:right;
+    border:1px solid #c0c0c0;
+    padding:2px;
+    margin:10px 0 10px 20px;
+  }
+  
+  .img-left{
+    float:left;
+    border:1px solid #c0c0c0;
+    padding:2px;
+    margin:10px 20px 10px 0;
+  }
+  
+  .img-center{
+    display:block;
+    border:1px solid #c0c0c0;
+    padding:2px;
+    margin:20px auto;
+  }
+  
+  /*  --------------- Responsive Images -----------------  */
+  
+  img {
+    max-width: 100%;
+  }
+  
+  /*  --------------- Tables ------------------------  */
+  
+  table{
+    width:100%;
+    border:1px solid #c0c0c0;
+    border-collapse:collapse;
+    box-shadow: 0 8px 8px rgba(0, 0, 0, 0.4);
+    margin:20px 0;
+  }
+  table caption{
+    font-weight:bold;
+    margin:10px;
+  }
+  table tr:nth-child(even){
+    background-color:rgba(0,0,0,.1);
+  }
+  
+  table tr:hover{
+    background-color:rgba(0,0,0,.2);
+  }
+  
+  
+  
+  table th{
+    background-color: #172635;
+    color:#fff;
+    padding:10px;
+  }
+  table td{
+    border:1px solid #c0c0c0;
+    padding:5px;
+    text-align:right;
+    width:33%;
+  }
+  
+  td:nth-child(1){
+    text-align:left;
+  }
+  
+  /*  --------------- Lists ------------------------  */
+
+ol{
+    list-style-type:lower-roman;
+}
+li{
+
+}
+
+ul li > ul {
+  list-style-type:square;
+  color:red;
+}
+
+dl{}
+dt{
+  font-weight:bold;
+}
+dd{
+  margin:0;
+}
+
+dd + dt{
+  margin-top:20px;
+  color:red;
+}
+
+body{
+    background-color: #d6a9ce;
+    font-family: 'Montserrat', sans-serif;
+    margin: 15px;
+}
+
+header.primary{
+    background-color: #AD5891;
+    text-align: center;
+    color:#fff;
+    padding: 40px;
+}
+
+header.primary h1{
+    font-size:2.5rem;
+    margin: 20px 0 10px;
+}
+header.primary h1 a{
+    color:#fff
+    text-decoration:none;
+}
+
+header.primary h2{
+    font-sixe:1.4rem;
+}
